@@ -1,0 +1,16 @@
+plugins {
+    id 'war'
+}
+
+group = 'ua.goit'
+version = '1.0-SNAPSHOT'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.1.0'
+    implementation 'org.thymeleaf:thymeleaf:3.1.2.RELEASE'
+}
